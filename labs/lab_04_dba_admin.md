@@ -1,5 +1,9 @@
 # Lab 4 — Tareas de Administración DBA con Copilot
 
+> 📍 **Estás en:** [Inicio](../README.md) → [Lab 3](lab_03_nl2sql.md) → **Lab 4** → [Lab 5](lab_05_custom_instructions.md)
+
+---
+
 **⏱️ Duración:** ~10 minutos  
 **🎯 Objetivo:** Demostrar cómo Copilot acelera las tareas más comunes y críticas de un DBA: diagnóstico de bloqueos, análisis de performance y automatización de backups.
 
@@ -120,4 +124,6 @@ Copilot **generará el script** pero **no lo ejecutará automáticamente**. Debe
 | Estrategia de backup + script | 30+ min de documentación | 4 prompts |
 | Configuración del servidor | Navegar sys.configurations | 1 prompt |
 
-**➡️ Siguiente: [Lab 5 — Custom Instructions](lab_05_custom_instructions.md)**
+---
+
+⬅️ [Lab 3 — NL2SQL](lab_03_nl2sql.md) | ➡️ **Siguiente: [Lab 5 — Custom Instructions](lab_05_custom_instructions.md)**

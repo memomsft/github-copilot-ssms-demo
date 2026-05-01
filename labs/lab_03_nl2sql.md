@@ -1,5 +1,9 @@
 # Lab 3 — NL2SQL: De Lenguaje Natural a T-SQL + Slash Commands
 
+> 📍 **Estás en:** [Inicio](../README.md) → [Lab 2](lab_02_exploracion_schema.md) → **Lab 3** → [Lab 4](lab_04_dba_admin.md)
+
+---
+
 **⏱️ Duración:** ~15 minutos  
 **🎯 Objetivo:** Demostrar cómo generar queries T-SQL complejas desde descripciones en español, refinarlas en conversación, y optimizarlas con slash commands.
 
@@ -144,4 +148,6 @@ Presiona **Tab** para aceptar la sugerencia.
 | `/doc` | Selecciona query + `/doc` | Documenta código automáticamente |
 | Autocompletions | Escribe en el editor | Acelera escritura con sugerencias inline |
 
-**➡️ Siguiente: [Lab 4 — Tareas de Administración DBA](lab_04_dba_admin.md)**
+---
+
+⬅️ [Lab 2 — Exploración del Esquema](lab_02_exploracion_schema.md) | ➡️ **Siguiente: [Lab 4 — Administración DBA](lab_04_dba_admin.md)**

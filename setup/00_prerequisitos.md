@@ -1,5 +1,9 @@
 # 🛠️ Setup — Prerrequisitos
 
+> 📍 **Estás en:** [Inicio](../README.md) → **Prerrequisitos** → [Instalar AdventureWorks](01_adventureworks.md)
+
+---
+
 Antes de ejecutar cualquier lab, asegúrate de tener todo configurado correctamente.
 
 ---
@@ -71,3 +75,7 @@ Si aparece en rojo o gris, revisa:
 - [ ] Cuenta GitHub conectada en SSMS (badge verde)
 - [ ] AdventureWorks restaurada (ver `01_adventureworks.md`)
 - [ ] Query Editor conectado a `AdventureWorks` (no a `master`)
+
+---
+
+⬅️ [Inicio](../README.md) | ➡️ **Siguiente: [Instalar AdventureWorks](01_adventureworks.md)**

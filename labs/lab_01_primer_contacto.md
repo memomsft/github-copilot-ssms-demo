@@ -1,5 +1,9 @@
 # Lab 1 — Primer Contacto con GitHub Copilot en SSMS
 
+> 📍 **Estás en:** [Inicio](../README.md) → [Setup](../setup/01_adventureworks.md) → **Lab 1** → [Lab 2](lab_02_exploracion_schema.md)
+
+---
+
 **⏱️ Duración:** ~5 minutos  
 **🎯 Objetivo:** Conocer la interfaz, entender los dos modos de interacción y hacer el primer prompt.
 
@@ -95,4 +99,6 @@ Con el cursor sobre la query, presiona **`Alt + /`** para abrir el inline chat y
 - ✔️ Hay dos modos: **Chat lateral** (conversacional) e **Inline Chat** (contextual en el editor)
 - ✔️ El primer prompt ya te da información del servidor sin escribir T-SQL
 
-**➡️ Siguiente: [Lab 2 — Exploración del Esquema](lab_02_exploracion_schema.md)**
+---
+
+⬅️ [Setup — AdventureWorks](../setup/01_adventureworks.md) | ➡️ **Siguiente: [Lab 2 — Exploración del Esquema](lab_02_exploracion_schema.md)**

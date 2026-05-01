@@ -1,5 +1,9 @@
 # Lab 2 — Exploración del Esquema con Lenguaje Natural
 
+> 📍 **Estás en:** [Inicio](../README.md) → [Lab 1](lab_01_primer_contacto.md) → **Lab 2** → [Lab 3](lab_03_nl2sql.md)
+
+---
+
 **⏱️ Duración:** ~10 minutos  
 **🎯 Objetivo:** Demostrar cómo un DBA puede entender un esquema desconocido en minutos usando solo lenguaje natural — sin escribir una línea de T-SQL.
 
@@ -101,4 +105,6 @@ Si tuviera que explicarle a un director de empresa qué datos tenemos en esta ba
 
 **Mensaje clave para decisores:** *"En 10 minutos, un DBA nuevo puede conocer una base de datos que normalmente tomaría días entender."*
 
-**➡️ Siguiente: [Lab 3 — NL2SQL y Slash Commands](lab_03_nl2sql.md)**
+---
+
+⬅️ [Lab 1 — Primer Contacto](lab_01_primer_contacto.md) | ➡️ **Siguiente: [Lab 3 — NL2SQL y Slash Commands](lab_03_nl2sql.md)**

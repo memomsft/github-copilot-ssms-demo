@@ -1,5 +1,9 @@
 # Lab 5 — Custom Instructions: Estandariza las Prácticas del Equipo
 
+> 📍 **Estás en:** [Inicio](../README.md) → [Lab 4](lab_04_dba_admin.md) → **Lab 5** → ✅ Fin del Demo
+
+---
+
 **⏱️ Duración:** ~5 minutos  
 **🎯 Objetivo:** Demostrar cómo un equipo puede configurar Copilot para que siempre genere código que siga sus estándares internos, sin depender de que cada DBA los recuerde.
 
@@ -133,3 +137,7 @@ Copilot detectará que el script viola los estándares (usa `SELECT *`, minúscu
 ---
 
 > 📚 **Recurso adicional:** [Mejores prácticas para prompts en SSMS (docs oficiales)](https://learn.microsoft.com/es-es/ssms/github-copilot/best-practices)
+
+---
+
+⬅️ [Lab 4 — Administración DBA](lab_04_dba_admin.md) | 🏠 [Volver al Inicio](../README.md)

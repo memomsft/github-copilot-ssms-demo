@@ -1,5 +1,9 @@
 # 🗄️ Setup — AdventureWorks
 
+> 📍 **Estás en:** [Inicio](../README.md) → [Prerrequisitos](00_prerequisitos.md) → **Instalar AdventureWorks** → [Lab 1](../labs/lab_01_primer_contacto.md)
+
+---
+
 AdventureWorks es la base de datos de ejemplo oficial de Microsoft. Simula una empresa de manufactura y ventas de bicicletas — perfecta para demos de DBA porque tiene esquemas ricos, relaciones, índices y datos suficientes para generar escenarios realistas.
 
 ---
@@ -67,3 +71,7 @@ ORDER BY NumeroDeTablas DESC;
 ---
 
 > 💡 **Para el presentador:** Siempre conéctate a `AdventureWorks2022` (no a `master`) antes de abrir el Chat de Copilot. El contexto del chat se basa en la conexión activa del Query Editor.
+
+---
+
+⬅️ [Prerrequisitos](00_prerequisitos.md) | ➡️ **Siguiente: [Lab 1 — Primer Contacto](../labs/lab_01_primer_contacto.md)**
