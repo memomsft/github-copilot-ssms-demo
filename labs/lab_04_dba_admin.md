@@ -1,4 +1,4 @@
-# Lab 4 — Tareas de Administración DBA con Copilot
+# Lab 4 - Tareas de Administración DBA con Copilot
 
 > 📍 **Estás en:** [Inicio](../README.md) → [Lab 3](lab_03_nl2sql.md) → **Lab 4** → [Lab 5](lab_05_custom_instructions.md)
 
