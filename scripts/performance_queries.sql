@@ -2,8 +2,8 @@
 -- Script: performance_queries.sql
 -- Descripción: Análisis de performance — queries lentas, índices
 --              y wait stats
--- Generado con asistencia de GitHub Copilot en SSMS
--- Repo: copilot-ssms-demo
+-- Rol en el repo: SOLUCIÓN DE REFERENCIA
+-- → Genera tu propia versión en Lab 4 (Ejercicio 4.2) con Copilot y compara.
 -- ============================================================
 
 -- -----------------------------------------------
