@@ -1,8 +1,8 @@
 -- ============================================================
 -- Script: diagnostico_bloqueos.sql
 -- Descripción: Diagnóstico de bloqueos activos en SQL Server
--- Generado con asistencia de GitHub Copilot en SSMS
--- Repo: copilot-ssms-demo
+-- Rol en el repo: SOLUCIÓN DE REFERENCIA
+-- → Genera tu propia versión en Lab 4 (Ejercicio 4.1) con Copilot y compara.
 -- ============================================================
 
 -- -----------------------------------------------
