@@ -1,4 +1,4 @@
-# 🤖 GitHub Copilot en SSMS — Demo para DBAs
+# 🤖 GitHub Copilot en SSMS -  Ejercicio para DBAs
 
 > **Demo replicable | AdventureWorks | SSMS 22.4.1 | Español**
 
@@ -35,11 +35,11 @@ Mostrar, con ejercicios replicables paso a paso, que un DBA puede:
 |------|---------|-------------|
 | 0 | [Prerrequisitos](setup/00_prerequisitos.md) | SSMS, GitHub Copilot, cuenta |
 | 1 | [Instalar AdventureWorks](setup/01_adventureworks.md) | Base de datos del demo |
-| 2 | [Lab 1 — Primer Contacto](labs/lab_01_primer_contacto.md) | Interfaz y configuración |
-| 3 | [Lab 2 — Exploración del Esquema](labs/lab_02_exploracion_schema.md) | Lenguaje natural sobre la BD |
-| 4 | [Lab 3 — NL2SQL y Slash Commands](labs/lab_03_nl2sql.md) | Generar y optimizar T-SQL |
-| 5 | [Lab 4 — Administración DBA](labs/lab_04_dba_admin.md) | Bloqueos, performance, backups |
-| 6 | [Lab 5 — Custom Instructions](labs/lab_05_custom_instructions.md) | Estándares del equipo |
+| 2 | [Lab 1 - Primer Contacto](labs/lab_01_primer_contacto.md) | Interfaz y configuración |
+| 3 | [Lab 2 - Exploración del Esquema](labs/lab_02_exploracion_schema.md) | Lenguaje natural sobre la BD |
+| 4 | [Lab 3 - NL2SQL y Slash Commands](labs/lab_03_nl2sql.md) | Generar y optimizar T-SQL |
+| 5 | [Lab 4 - Administración DBA](labs/lab_04_dba_admin.md) | Bloqueos, performance, backups |
+| 6 | [Lab 5 - Custom Instructions](labs/lab_05_custom_instructions.md) | Estándares del equipo |
 
 👉 **[Comenzar aquí → Prerrequisitos](setup/00_prerequisitos.md)**
 
@@ -76,7 +76,7 @@ copilot-ssms-demo/
 
 ---
 
-## 🚀 Flujo del Demo (resumen ejecutivo)
+## 🚀 Flujo del Ejercicio (resumen ejecutivo)
 
 ```
 Lab 1 → Instalar y conectar Copilot          (~5 min)
