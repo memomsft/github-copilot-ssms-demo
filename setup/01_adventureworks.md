@@ -70,7 +70,7 @@ ORDER BY NumeroDeTablas DESC;
 
 ---
 
-> 💡 **Para el presentador:** Siempre conéctate a `AdventureWorks2022` (no a `master`) antes de abrir el Chat de Copilot. El contexto del chat se basa en la conexión activa del Query Editor.
+> 💡 **Durante la ejecución:** Siempre conéctate a `AdventureWorks2022` (no a `master`) antes de abrir el Chat de Copilot. El contexto del chat se basa en la conexión activa del Query Editor.
 
 ---
 
