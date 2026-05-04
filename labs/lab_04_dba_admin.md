@@ -33,7 +33,7 @@ Dame la query que debería ejecutar para monitorear bloqueos en tiempo real, con
 
 > 💡 **Para el ejercicio:** Copia el script generado al editor y muéstralo. Copilot generará algo sobre `sys.dm_exec_requests` + `sys.dm_exec_sql_text`. El valor aquí es que el DBA no necesitó recordar esas DMVs — solo describió el problema.
 
-Guarda el script generado en `scripts/diagnostico_bloqueos.sql` de este repositorio.
+Compara lo que Copilot generó contra la solución de referencia en `scripts/diagnostico_bloqueos.sql`. ¿Usó las mismas DMVs? ¿Incluyó el texto de la query bloqueante?
 
 ---
 
@@ -77,7 +77,7 @@ Crea el script completo para implementar esa estrategia con SQL Agent Jobs
 
 > 💡 **Para el ejercicio:** Esto es para decisores. Pasamos de una pregunta conceptual a un script completo de SQL Agent en 4 preguntas. Lo que antes tomaba 30 minutos de documentación y escritura, tomó 2 minutos de conversación.
 
-El script generado va en `scripts/backup_automatizado.sql`.
+Compara contra `scripts/backup_automatizado.sql`. ¿Generó ambos jobs (Full + Log)? ¿Incluyó compresión y checksum?
 
 ---
 
