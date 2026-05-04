@@ -1,15 +1,15 @@
-# Lab 2 — Exploración del Esquema con Lenguaje Natural
+# Lab 2 - Exploración del Esquema con Lenguaje Natural
 
 > 📍 **Estás en:** [Inicio](../README.md) → [Lab 1](lab_01_primer_contacto.md) → **Lab 2** → [Lab 3](lab_03_nl2sql.md)
 
 ---
 
 **⏱️ Duración:** ~10 minutos  
-**🎯 Objetivo:** Demostrar cómo un DBA puede entender un esquema desconocido en minutos usando solo lenguaje natural — sin escribir una línea de T-SQL.
+**🎯 Objetivo:** Demostrar cómo un DBA puede entender un esquema desconocido en minutos usando solo lenguaje natural - sin escribir una línea de T-SQL.
 
 ---
 
-## 🧠 Concepto Clave (para el presentador)
+## 🧠 Concepto Clave
 
 > "Uno de los trabajos más tediosos de un DBA es llegar a una base de datos desconocida y mapear su estructura. Normalmente toma horas navegar el Object Explorer, leer documentación y ejecutar queries de sistema. Con Copilot, ese proceso se reduce a una conversación."
 
@@ -17,7 +17,7 @@
 
 ---
 
-## Ejercicio 2.1 — Mapa General de la Base de Datos
+## Ejercicio 2.1 - Mapa General de la Base de Datos
 
 Copia y pega estos prompts en el chat **uno por uno**, esperando la respuesta de cada uno antes de continuar:
 
@@ -33,11 +33,11 @@ Copia y pega estos prompts en el chat **uno por uno**, esperando la respuesta de
 ¿Qué columnas almacenan correos electrónicos en la base de datos?
 ```
 
-> 💡 **Para el presentador:** Estos tres prompts normalmente requerirían 3 queries diferentes sobre `sys.tables`, `sys.dm_db_partition_stats` y `INFORMATION_SCHEMA.COLUMNS`. Copilot los ejecuta y te presenta los resultados de forma legible.
+> 💡 **Para el ejercicio:** Estos tres prompts normalmente requerirían 3 queries diferentes sobre `sys.tables`, `sys.dm_db_partition_stats` y `INFORMATION_SCHEMA.COLUMNS`. Copilot los ejecuta y te presenta los resultados de forma legible.
 
 ---
 
-## Ejercicio 2.2 — Exploración Multi-Turn (conversación encadenada)
+## Ejercicio 2.2 - Exploración Multi-Turn (conversación encadenada)
 
 Esta es una de las capacidades más poderosas. Copilot recuerda el contexto de la conversación:
 
@@ -57,11 +57,11 @@ De esas tablas, ¿cuál tiene más registros?
 Dame un ejemplo de los primeros 5 registros de esa tabla en formato tabla
 ```
 
-> 💡 **Para el presentador:** Muestra cómo cada pregunta se construye sobre la anterior. No tuviste que repetir el contexto — Copilot mantiene el hilo de la conversación. Esto es especialmente valioso para onboarding de nuevos DBAs.
+> 💡 **Para el ejercicio:** Muestra cómo cada pregunta se construye sobre la anterior. No tuviste que repetir el contexto - Copilot mantiene el hilo de la conversación. Esto es especialmente valioso para onboarding de nuevos DBAs.
 
 ---
 
-## Ejercicio 2.3 — Preguntas de Administración del Entorno
+## Ejercicio 2.3 - Preguntas de Administración del Entorno
 
 Cambia el contexto: ahora eres el DBA responsable del ambiente. Pregunta:
 
@@ -77,19 +77,19 @@ Lista los índices de la tabla Sales.SalesOrderHeader con su tipo y tamaño esti
 ¿Han fallado trabajos del SQL Agent en la última semana?
 ```
 
-> ⚠️ **Nota para el presentador:** Esta última pregunta requiere que el SQL Agent esté activo. Si no hay jobs configurados, Copilot lo indicará. Es un buen momento para explicar que Copilot respeta el estado real del entorno.
+> ⚠️ **Nota para el ejercicio:** Esta última pregunta requiere que el SQL Agent esté activo. Si no hay jobs configurados, Copilot lo indicará. Es un buen momento para comprender que Copilot respeta el estado real del entorno.
 
 ---
 
-## Ejercicio 2.4 — "Momento Decisor" 🎯
+## Ejercicio 2.4 - "Momento Decisor" 🎯
 
-Este prompt está diseñado para impactar a la audiencia no técnica:
+Este prompt está diseñado para mostrar a la audiencia no técnica tambien:
 
 ```
 Si tuviera que explicarle a un director de empresa qué datos tenemos en esta base de datos y para qué sirven, ¿cómo lo describirías en lenguaje de negocio, sin términos técnicos?
 ```
 
-> 💡 **Para el presentador:** Este prompt demuestra que Copilot no es solo una herramienta técnica — puede traducir el mundo de los datos al lenguaje del negocio. Los decisores ven valor inmediato aquí.
+> 💡 **Para el ejercicio:** Este prompt demuestra que Copilot no es solo una herramienta técnica - puede traducir el mundo de los datos al lenguaje del negocio. Los decisores ven valor inmediato aquí.
 
 ---
 
@@ -107,4 +107,4 @@ Si tuviera que explicarle a un director de empresa qué datos tenemos en esta ba
 
 ---
 
-⬅️ [Lab 1 — Primer Contacto](lab_01_primer_contacto.md) | ➡️ **Siguiente: [Lab 3 — NL2SQL y Slash Commands](lab_03_nl2sql.md)**
+⬅️ [Lab 1 - Primer Contacto](lab_01_primer_contacto.md) | ➡️ **Siguiente: [Lab 3 - NL2SQL y Slash Commands](lab_03_nl2sql.md)**
