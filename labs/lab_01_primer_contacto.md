@@ -57,7 +57,7 @@ Escribe este prompt en el chat y presiona Enter:
 
 **Qué esperar:** Copilot ejecuta una consulta sobre la conexión activa y responde con la versión del servidor y el `compatibility_level` de AdventureWorks.
 
-> 💡 **Para el presentador:** Muestra al público que Copilot no solo responde con texto — puede ejecutar queries en tu nombre y mostrar los resultados. Aquí está el "momento wow" #1.
+> 💡 **Durante el ejercicio:** Muestra al público que Copilot no solo responde con texto — puede ejecutar queries en tu nombre y mostrar los resultados. Aquí está el "momento wow" #1.
 
 ---
 
@@ -89,7 +89,7 @@ Con el cursor sobre la query, presiona **`Alt + /`** para abrir el inline chat y
 ¿Qué hace esta query y cómo podría mejorarla?
 ```
 
-> 💡 **Para el presentador:** El inline chat es útil cuando ya tienes código escrito y quieres asistencia contextual sin salir del editor.
+> 💡 **Durante el ejercicio:** El inline chat es útil cuando ya tienes código escrito y quieres asistencia contextual sin salir del editor.
 
 ---
 
