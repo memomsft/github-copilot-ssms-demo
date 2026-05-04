@@ -1,4 +1,4 @@
-# Lab 3 — NL2SQL: De Lenguaje Natural a T-SQL + Slash Commands
+# Lab 3 - NL2SQL: De Lenguaje Natural a T-SQL + Slash Commands
 
 > 📍 **Estás en:** [Inicio](../README.md) → [Lab 2](lab_02_exploracion_schema.md) → **Lab 3** → [Lab 4](lab_04_dba_admin.md)
 
@@ -9,15 +9,15 @@
 
 ---
 
-## 🧠 Concepto Clave (para el presentador)
+## 🧠 Concepto Clave
 
 > "NL2SQL (Natural Language to SQL) es la killer feature para DBAs. En lugar de recordar sintaxis compleja, joins, funciones de ventana o CTEs, describes lo que necesitas y Copilot lo escribe. Luego tú revisas, ajustas y ejecutas."
 
-**Regla de oro:** Copilot genera el código — el DBA decide si ejecutarlo. Siempre revisa antes de correr en producción.
+**Regla de oro:** Copilot genera el código - el DBA decide si ejecutarlo. Siempre revisa antes de correr en producción.
 
 ---
 
-## Ejercicio 3.1 — NL2SQL Básico
+## Ejercicio 3.1 - NL2SQL Básico
 
 Escribe en el chat:
 
@@ -29,11 +29,11 @@ Copilot generará una query. Haz clic en **"Insert into Editor"** (botón que ap
 
 **Ejecuta la query** con `F5` y muestra los resultados al público.
 
-> 💡 **Para el presentador:** Señala que Copilot generó el JOIN entre `Sales.Customer`, `Person.Person`, `Sales.SalesOrderHeader` y probablemente `Person.Address` — todo sin que lo pidieras explícitamente. Entendió la intención.
+> 💡 **Para el ejercicio:** Revisa que Copilot generó el JOIN entre `Sales.Customer`, `Person.Person`, `Sales.SalesOrderHeader` y probablemente `Person.Address` - todo sin que lo pidieras explícitamente. Entendió la intención.
 
 ---
 
-## Ejercicio 3.2 — Refinamiento Multi-Turn (el poder del contexto)
+## Ejercicio 3.2 - Refinamiento Multi-Turn (el poder del contexto)
 
 Sobre la misma conversación, continúa:
 
@@ -49,13 +49,13 @@ Agrega una columna que muestre el porcentaje que representa cada territorio sobr
 Ordena por porcentaje descendente y limita a los 5 territorios con más ventas
 ```
 
-> 💡 **Para el presentador:** Esto es lo que antes requería 3 iteraciones de query, debugging y búsquedas en Stack Overflow. Con Copilot, es una conversación lineal. El código evoluciona incrementalmente.
+> 💡 **Para el ejercicio:** Esto es lo que antes requería 3 iteraciones de query, debugging y búsquedas en Stack Overflow. Con Copilot, es una conversación lineal. El código evoluciona incrementalmente.
 
 ---
 
-## Ejercicio 3.3 — Slash Commands: El DBA como Code Reviewer
+## Ejercicio 3.3 - Slash Commands: El DBA como Code Reviewer
 
-### `/explain` — Entiende código heredado
+### `/explain` - Entiende código heredado
 
 Escribe esta query en el editor (simula código heredado que nadie entiende):
 
@@ -82,11 +82,11 @@ Selecciona toda la query, clic derecho → **Explain** (o escribe `/explain` en 
 /explain
 ```
 
-> 💡 **Para el presentador:** Copilot explicará en lenguaje natural qué hace esta query, incluyendo la función de ventana RANK() y el HAVING. Esto es invaluable cuando un DBA hereda código sin documentación.
+> 💡 **Para el ejercicio:** Copilot explicará en lenguaje natural qué hace esta query, incluyendo la función de ventana RANK() y el HAVING. Esto es invaluable cuando un DBA hereda código sin documentación.
 
 ---
 
-### `/optimize` — Mejora el rendimiento
+### `/optimize` - Mejora el rendimiento
 
 Con la misma query seleccionada, escribe en el chat:
 
@@ -100,11 +100,11 @@ O en el chat:
 Esta query tarda más de 10 segundos en producción con millones de registros. ¿Cómo la optimizas? ¿Qué índices recomiendas?
 ```
 
-> 💡 **Para el presentador:** Copilot puede sugerir índices, reescribir el WHERE, o proponer CTEs para mejorar la legibilidad y rendimiento. Importante: siempre valida las sugerencias de índices antes de crearlos en producción.
+> 💡 **Para el ejercicio:** Copilot puede sugerir índices, reescribir el WHERE, o proponer CTEs para mejorar la legibilidad y rendimiento. Importante: siempre valida las sugerencias de índices antes de crearlos en producción.
 
 ---
 
-### `/doc` — Documenta automáticamente
+### `/doc` - Documenta automáticamente
 
 Selecciona la query original y escribe:
 
@@ -114,11 +114,11 @@ Selecciona la query original y escribe:
 
 Copilot generará comentarios explicativos sobre cada sección de la query.
 
-> 💡 **Para el presentador:** Para un equipo, esto es transformador. La documentación suele ser lo primero que se omite bajo presión. Ahora tarda segundos.
+> 💡 **Para el ejercicio:** Para un equipo, esto es transformador. La documentación suele ser lo primero que se omite bajo presión. Ahora tarda segundos.
 
 ---
 
-## Ejercicio 3.4 — Autocompletions en el Editor (SSMS 22.2+)
+## Ejercicio 3.4 - Autocompletions en el Editor (SSMS 22.2+)
 
 Abre un nuevo Query Editor conectado a AdventureWorks y empieza a escribir:
 
@@ -133,7 +133,7 @@ Pausa después de escribir el último comma. Copilot debería sugerir en texto g
 
 Presiona **Tab** para aceptar la sugerencia.
 
-> ⚠️ **Nota para el presentador:** Las autocompletions no siempre aparecen inmediatamente — dependen del contexto del editor y la conexión. Si no aparece en el demo en vivo, muéstralo como concepto explicando que funciona igual que Copilot en VS Code.
+> ⚠️ **Nota para el ejercicio:** Las autocompletions no siempre aparecen inmediatamente - dependen del contexto del editor y la conexión. Si no aparece en el demo en vivo, muéstralo como concepto explicando que funciona igual que Copilot en VS Code.
 
 ---
 
@@ -150,4 +150,4 @@ Presiona **Tab** para aceptar la sugerencia.
 
 ---
 
-⬅️ [Lab 2 — Exploración del Esquema](lab_02_exploracion_schema.md) | ➡️ **Siguiente: [Lab 4 — Administración DBA](lab_04_dba_admin.md)**
+⬅️ [Lab 2 — Exploración del Esquema](lab_02_exploracion_schema.md) | ➡️ **Siguiente: [Lab 4 - Administración DBA](lab_04_dba_admin.md)**
