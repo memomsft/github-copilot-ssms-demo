@@ -1,4 +1,4 @@
-# 🛠️ Setup — Prerrequisitos
+# 🛠️ Setup - Prerrequisitos
 
 > 📍 **Estás en:** [Inicio](../README.md) → **Prerrequisitos** → [Instalar AdventureWorks](01_adventureworks.md)
 
@@ -37,12 +37,12 @@ Copilot no viene activo por defecto. Se instala como un workload adicional:
 
 Necesitas una cuenta de GitHub con acceso a Copilot.
 
-### Opción A — Plan Gratuito (recomendado para el demo)
+### Opción A - Plan Gratuito (recomendado para el demo)
 - Ve a [github.com/features/copilot](https://github.com/features/copilot)
 - Selecciona **Get Copilot for free**
 - El plan gratuito incluye 2,000 completions/mes y 50 mensajes de chat
 
-### Opción B — Plan Individual/Business
+### Opción B - Plan Individual/Business
 - Requiere suscripción de pago en GitHub
 
 ---
