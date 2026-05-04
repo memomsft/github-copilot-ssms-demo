@@ -123,10 +123,10 @@ Copilot generará comentarios explicativos sobre cada sección de la query.
 Abre un nuevo Query Editor conectado a AdventureWorks y empieza a escribir:
 
 ```sql
-SELECT TOP 10
-    c.CustomerID,
-    p.FirstName + ' ' + p.LastName AS NombreCliente,
-    -- empieza a escribir aquí y espera la sugerencia en gris
+SELECT *
+FROM Sales.SalesOrderHeader soh
+JOIN Sales.SalesOrderDetail sod ON
+-- empieza a escribir aquí y espera la sugerencia en gris
 ```
 
 Pausa después de escribir el último comma. Copilot debería sugerir en texto gris la siguiente columna lógica.
