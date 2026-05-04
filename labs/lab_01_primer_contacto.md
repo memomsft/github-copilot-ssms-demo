@@ -1,4 +1,4 @@
-# Lab 1 — Primer Contacto con GitHub Copilot en SSMS
+# Lab 1 - Primer Contacto con GitHub Copilot en SSMS
 
 > 📍 **Estás en:** [Inicio](../README.md) → [Setup](../setup/01_adventureworks.md) → **Lab 1** → [Lab 2](lab_02_exploracion_schema.md)
 
@@ -19,7 +19,7 @@ Este lab cubre los dos modos de interacción:
 
 ---
 
-## Paso 1 — Conectar el Query Editor a AdventureWorks
+## Paso 1 - Conectar el Query Editor a AdventureWorks
 
 Antes de abrir Copilot, **conecta el Query Editor a AdventureWorks**. Copilot toma el contexto de la conexión activa.
 
@@ -31,7 +31,7 @@ Antes de abrir Copilot, **conecta el Query Editor a AdventureWorks**. Copilot to
 
 ---
 
-## Paso 2 — Abrir el Chat de Copilot
+## Paso 2 - Abrir el Chat de Copilot
 
 **Opción A (botón):**
 - Clic en el ícono de Copilot (estrella ⭐) en la esquina superior derecha
@@ -47,7 +47,7 @@ Deberías ver el panel de chat abrirse en el lateral derecho de SSMS.
 
 ---
 
-## Paso 3 — El Primer Prompt
+## Paso 3 - El Primer Prompt
 
 Escribe este prompt en el chat y presiona Enter:
 
@@ -61,7 +61,7 @@ Escribe este prompt en el chat y presiona Enter:
 
 ---
 
-## Paso 4 — Explorar la Interfaz
+## Paso 4 - Explorar la Interfaz
 
 Señala los elementos del panel de chat:
 
@@ -75,7 +75,7 @@ Señala los elementos del panel de chat:
 
 ---
 
-## Paso 5 — Inline Chat (bonus)
+## Paso 5 - Inline Chat (bonus)
 
 Escribe esta query en el editor:
 
@@ -101,4 +101,4 @@ Con el cursor sobre la query, presiona **`Alt + /`** para abrir el inline chat y
 
 ---
 
-⬅️ [Setup — AdventureWorks](../setup/01_adventureworks.md) | ➡️ **Siguiente: [Lab 2 — Exploración del Esquema](lab_02_exploracion_schema.md)**
+⬅️ [Setup — AdventureWorks](../setup/01_adventureworks.md) | ➡️ **Siguiente: [Lab 2 - Exploración del Esquema](lab_02_exploracion_schema.md)**
