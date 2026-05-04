@@ -101,4 +101,4 @@ Con el cursor sobre la query, presiona **`Alt + /`** para abrir el inline chat y
 
 ---
 
-⬅️ [Setup — AdventureWorks](../setup/01_adventureworks.md) | ➡️ **Siguiente: [Lab 2 - Exploración del Esquema](lab_02_exploracion_schema.md)**
+⬅️ [Setup - AdventureWorks](../setup/01_adventureworks.md) | ➡️ **Siguiente: [Lab 2 - Exploración del Esquema](lab_02_exploracion_schema.md)**
