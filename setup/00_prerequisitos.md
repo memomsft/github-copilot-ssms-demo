@@ -53,13 +53,13 @@ Necesitas una cuenta de GitHub con acceso a Copilot.
 2. En la esquina superior derecha, haz clic en el **badge de Copilot** (ícono de estrella)
 3. Selecciona **Open Chat Window to Sign In**
 4. Sigue el flujo de autenticación en el navegador
-5. Regresa a SSMS — el badge debe mostrar ícono verde (activo)
+5. Regresa a SSMS - el badge debe mostrarse activo
 
 ---
 
 ## 5. Verificar la conexión
 
-Una vez configurado, el ícono de Copilot en la esquina superior derecha de SSMS debe verse en **verde** (activo).
+Una vez configurado, el ícono de Copilot en la esquina superior derecha de SSMS debe verse activo (haz hover con el mouse para verificar).
 
 Si aparece en rojo o gris, revisa:
 - ¿Tu cuenta GitHub tiene Copilot activo?
