@@ -1,4 +1,4 @@
-# 🗄️ Setup — AdventureWorks
+# 🗄️ Setup - AdventureWorks
 
 > 📍 **Estás en:** [Inicio](../README.md) → [Prerrequisitos](00_prerequisitos.md) → **Instalar AdventureWorks** → [Lab 1](../labs/lab_01_primer_contacto.md)
 
@@ -8,7 +8,7 @@ AdventureWorks es la base de datos de ejemplo oficial de Microsoft. Simula una e
 
 ---
 
-## Opción A — Restaurar desde backup (SQL Server local)
+## Opción A - Restaurar desde backup (SQL Server local)
 
 1. Descarga el archivo `.bak` desde el repositorio oficial de Microsoft:
    👉 [github.com/microsoft/sql-server-samples](https://github.com/microsoft/sql-server-samples/releases/tag/adventureworks)
@@ -24,7 +24,7 @@ AdventureWorks es la base de datos de ejemplo oficial de Microsoft. Simula una e
 
 ---
 
-## Opción B — Azure SQL Database
+## Opción B - Azure SQL Database
 
 Si usas Azure SQL, puedes restaurar AdventureWorks directamente desde el portal:
 
@@ -74,4 +74,4 @@ ORDER BY NumeroDeTablas DESC;
 
 ---
 
-⬅️ [Prerrequisitos](00_prerequisitos.md) | ➡️ **Siguiente: [Lab 1 — Primer Contacto](../labs/lab_01_primer_contacto.md)**
+⬅️ [Prerrequisitos](00_prerequisitos.md) | ➡️ **Siguiente: [Lab 1 - Primer Contacto](../labs/lab_01_primer_contacto.md)**
