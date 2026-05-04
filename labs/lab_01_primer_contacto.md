@@ -57,7 +57,7 @@ Escribe este prompt en el chat y presiona Enter:
 
 **Qué esperar:** Copilot ejecuta una consulta sobre la conexión activa y responde con la versión del servidor y el `compatibility_level` de AdventureWorks.
 
-> 💡 **Durante el ejercicio:** Muestra al público que Copilot no solo responde con texto — puede ejecutar queries en tu nombre y mostrar los resultados. Aquí está el "momento wow" #1.
+> 💡 **Durante el ejercicio:** Nota que Copilot no solo responde con texto — puede ejecutar/sugerir queries en tu nombre y mostrar los resultados.
 
 ---
 
