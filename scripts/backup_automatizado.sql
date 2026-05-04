@@ -4,7 +4,8 @@
 --              Full backup diario + Log backup cada 30 minutos
 -- Generado con asistencia de GitHub Copilot en SSMS
 -- ⚠️  Revisar y ajustar rutas y nombres antes de ejecutar
--- Repo: copilot-ssms-demo
+-- Rol en el repo: SOLUCIÓN DE REFERENCIA
+-- → Genera tu propia versión en Lab 4 (Ejercicio 4.3) con Copilot y compara.
 -- ============================================================
 
 -- -----------------------------------------------
