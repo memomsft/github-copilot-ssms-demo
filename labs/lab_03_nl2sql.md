@@ -133,7 +133,7 @@ Pausa después de escribir el último comma. Copilot debería sugerir en texto g
 
 Presiona **Tab** para aceptar la sugerencia.
 
-> ⚠️ **Nota para el ejercicio:** Las autocompletions no siempre aparecen inmediatamente - dependen del contexto del editor y la conexión. Si no aparece en el demo en vivo, muéstralo como concepto explicando que funciona igual que Copilot en VS Code.
+> ⚠️ **Nota para el ejercicio:** Las autocompletions no siempre aparecen inmediatamente - dependen del contexto del editor y la conexión. 
 
 ---
 
